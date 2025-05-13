@@ -17,7 +17,7 @@ bounceCards.forEach(card => {  // Går igennem alle kortene og tilføjer en boun
 
     let top = 0;
     let direction = Math.random() > 0.8 ? 1 : -1;  // Retning af hop
-    const speed = Math.random() * 0.9 + 0.4; // Hastighed af hop
+    const speed = Math.random() * 0.6 + 0.4; // Hastighed af hop
     const delay = Math.random() * 1000; // Forsinkelse inden kortet starter med at hoppe
 
     setTimeout(() => { // Forsinkelse inden kortet starter med at hoppe
