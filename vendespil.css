@@ -54,3 +54,12 @@ body {
     height: auto;
   }
   
+.genstartKnap {
+  position:absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
