@@ -41,6 +41,8 @@ body {
 }
 
 .vendespilFlade img {
-    width: 145px;
+    width: 150px;
     height: auto;
-}
+    position: relative; 
+    top: 0px;
+    }
