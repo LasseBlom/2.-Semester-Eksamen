@@ -1,0 +1,56 @@
+body {
+    background-color: #1C1C1C;
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", sans-serif;
+    color: white;
+    overflow: hidden;
+  }
+  
+  /* SPILLER INFO */
+  .spiller-info {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+    font-size: 14px;
+    line-height: 1.2;
+  }
+  
+  .spiller-info img {
+    width: 30px;
+    height: 40px;
+  }
+  
+  /* VENSTRE SPILLER */
+  .venstre {
+    top: 10px;
+    left: 10px;
+  }
+  
+  /* HØJRE SPILLER */
+  .højre {
+    top: 10px;
+    right: 10px;
+    flex-direction: row-reverse;
+    text-align: right;
+  }
+  
+  /* VENDEBRIKKER */
+  .vendespilFlade {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 40px;
+    justify-items: center;
+    padding: 100px 50px 50px;
+    max-width: 1200px;
+    margin: auto;
+    position: relative;
+  }
+  
+  .vendespilFlade img {
+    width: 145px;
+    height: auto;
+  }
+  
