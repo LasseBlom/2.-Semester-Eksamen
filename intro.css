@@ -1,5 +1,5 @@
 body {
-    background-color: #121212;
+    background-color: #1C1C1C;
     margin: 0;
     padding: 0;
     font-family: "Lato", sans-serif;
@@ -37,7 +37,7 @@ body {
     font-weight: 300;
 }
 
-.start-button {
+.startKnap {
     background-color: #EF8B18;
     color: white;
     border: black 1px;
@@ -65,7 +65,7 @@ body {
     height: auto;
 }
 
-.restart-button {
+.genstartKnap {
     position: fixed;
     bottom: 20px;
     left: 50%;
@@ -75,7 +75,7 @@ body {
     font-size: 18px;
 }
 
-.sound-icon {
+.lydIkon {
     position: fixed;
     bottom: 20px;
     right: 20px;
