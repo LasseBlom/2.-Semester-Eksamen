@@ -41,7 +41,6 @@ body {
     background-color: #EF8B18;
     color: white;
     border: black 1px;
-    box-shadow: black;
     padding: 20px 60px;
     font-size: 20px;
     border-radius: 10px;
@@ -61,7 +60,7 @@ body {
 }
 
 .vendespilFlade img {
-    width: 150px;
+    width: 145px;
     height: auto;
 }
 

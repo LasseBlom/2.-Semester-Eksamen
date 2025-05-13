@@ -5,7 +5,7 @@ body {
     font-family: "Lato", sans-serif;
 }
 
-.overlay {
+.overlay1 {
     position: fixed;
     top: 0;
     left: 0;
@@ -20,7 +20,7 @@ body {
     cursor: pointer;
 }
 
-.overlay h1 {
+.overlay1 h1 {
     font-size: 100px;
     font-weight: 900;
     text-align: center;
@@ -41,6 +41,6 @@ body {
 }
 
 .vendespilFlade img {
-    width: 150px;
+    width: 145px;
     height: auto;
 }

@@ -19,7 +19,7 @@
     <div class="overlay" id="startOverlay">
         <div class="spillerKasse">
             <h1>SPILLER 1</h1>
-            <p>Vælg dit navn, så det evt. kan komme på<br>scoreboardet</p>
+            <p>Vælg dit navn, så det evt. <br> kan komme på <br> scoreboardet</p>
             <label for="player1">NAVN:</label>
             <input type="text" id="player1" name="player1">
         </div>
@@ -28,12 +28,17 @@
 
         <div class="spillerKasse">
             <h1>SPILLER 2</h1>
-            <p>Vælg dit navn, så det evt. kan komme på<br>scoreboardet</p>
+            <p>Vælg dit navn, så det evt. <br> kan komme på <br> scoreboardet</p>
             <label for="player2">NAVN:</label>
             <input type="text" id="player2" name="player2">
+        
+            <!-- START SPIL-knap -->
+        <button id="startSpilKnap" class="startSpilKnap" onclick="hideOverlay()" style="display: none;">START
+            SPIL</button>
+
         </div>
 
-        <!-- Start forfra-knap (udenfor overlay) -->
+        <!-- Start forfra-knap -->
         <a href="index.html" class="genstartKnap">START FORFRA</a>
 
         <!-- Lydikon -->
