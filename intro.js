@@ -1,4 +1,6 @@
-// Lydikon
-function toggleSound() {
-    alert("Lyd slået til/fra (du kan erstatte dette med rigtig lyd senere)");
+const introLyd = new Audio('sounds/introlyd.m4a');
+
+// Afspiller introlyden
+function afspilIntrolyd() {
+    introLyd.play();
 }

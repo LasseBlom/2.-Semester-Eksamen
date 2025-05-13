@@ -1,6 +1,6 @@
 // Hent navne fra localStorage eller brug standard
-document.getElementById("spiller1-navn").textContent = localStorage.getItem("spiller1") 
-document.getElementById("spiller2-navn").textContent = localStorage.getItem("spiller2") 
+document.getElementById("spiller1-navn").textContent = localStorage.getItem("spiller1")
+document.getElementById("spiller2-navn").textContent = localStorage.getItem("spiller2")
 
 // Eksempel: stik-tællere
 let spiller1Stik = 0;
