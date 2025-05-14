@@ -123,15 +123,19 @@ body {
 
 /* Selve pop-uppen */
 .popupBox {
-  background: white;
-  color: black;
-  padding: 20px;
-  border-radius: 12px;
-  text-align: center;
-  max-width: 300px;
-  width: 80%;
-  animation: fadeIn 0.3s ease-out;
-}
+    position: relative; 
+    background: #282828;
+    color: #ef8b18;
+    font-size: 30px;
+    padding-top: 1%;
+    border-radius: 20px;
+    border: 2px solid #ef8b18;
+    text-align: center;
+    width: 20%;
+    height: 320px;
+    animation: fadeIn 0.3s ease-out;
+  }
+  
 
 /* Fader pop-uppen ind */
 @keyframes fadeIn {
@@ -147,6 +151,16 @@ body {
   background: none;
   border: none;
   font-size: 22px;
-  color: black;
+  color: #ef8b18;
 }
 
+.navne {
+  background-color: #572a7a;
+  border-radius: 30px;
+  padding: 10px;
+  font-size: 20px;
+  color: white;
+  width: 85%;
+  text-align: center;
+  margin: 20px auto;
+}

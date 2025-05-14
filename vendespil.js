@@ -33,6 +33,7 @@ popup.addEventListener('click', (e) => {
 
 // Luk popup ved klik på kryds
 document.getElementById('lukKnap').addEventListener('click', (e) => {
-  popup.style.display = 'block';
+  popup.style.display = 'none';
 });
+
 
