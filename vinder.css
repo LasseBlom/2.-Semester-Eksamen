@@ -1,0 +1,93 @@
+body {
+    background-color: #662D91;
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Container */
+.vinderContainer {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vinderBoksMedBorder {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 50px;
+    background-color: transparent;
+    border: 3px solid white;
+    border-radius: 30px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+
+
+/* Tekst Sektion */
+.vinderTekst h2 {
+    font-size: 50px;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    text-shadow: 1px 1px 3px black;
+}
+
+.vinderTekst h1 {
+    font-size: 60px;
+    font-weight: 900;
+    color: orange;
+    text-shadow: 2px 2px 4px black;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.vinderTekst p {
+    font-size: 25px;
+    color: white;
+    margin-bottom: 30px;
+    text-shadow: 1px 1px 2px black;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.vinderTekst{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* Start forfra knap */
+.startForfraKnap {
+    background-color: orange;
+    color: white;
+    text-decoration: none;
+    padding: 12px 30px;
+    font-weight: bold;
+    border-radius: 8px;
+    box-shadow: 0 4px 0 #c97400;
+    transition: transform 0.1s;
+}
+
+/* Bounce animation */
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-15px);
+    }
+}
+
+.bounce {
+    animation: bounce 1s infinite ease-in-out;
+}
+
