@@ -15,3 +15,24 @@ function givStikTilSpiller2() {
   spiller2Stik++;
   document.getElementById("spiller2-stik").textContent = spiller2Stik;
 }
+
+// Pop-up åben 
+const podium = document.getElementById('podium');
+const popup = document.getElementById('popupOverlay');
+
+podium.addEventListener('click', () => {
+  popup.style.display = 'flex';
+});
+
+// Hvis man klikker udenfor pop-up boksen, så lukker den 
+popup.addEventListener('click', (e) => {
+  if (e.target === popup) {
+    popup.style.display = 'none';
+  }
+});
+
+// Luk popup ved klik på kryds
+document.getElementById('lukKnap').addEventListener('click', (e) => {
+  popup.style.display = 'block';
+});
+
