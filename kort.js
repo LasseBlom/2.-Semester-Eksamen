@@ -4,7 +4,7 @@ function afspil5til10() {
     kort1.play();
 }
 
-const kort2 = new Audio('sounds/urloig.m4a');
+const kort2 = new Audio('sounds/urolig.m4a');
 // Afspiller kort 2.1
 function afspilurolig() {
     kort2.play();

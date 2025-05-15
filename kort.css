@@ -60,7 +60,7 @@ body {
   .brik-indhold img {
     max-width: 800px;
     width: 100%;
-    height: auto;
+    height: 100%;
     display: block;
     border-radius: 10px;
   }
