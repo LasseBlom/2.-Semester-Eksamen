@@ -10,6 +10,12 @@ function afspilurolig() {
     kort2.play();
 }
 
+const korthjerte = new Audio('sounds/hjerte.mp3');
+// Afspiller kort 2.2
+function afspilhjerte() {
+    korthjerte.play();
+}
+
 const kort3 = new Audio('sounds/bange.m4a');
 // Afspiller kort 3.1
 function afspilbange() {
@@ -26,9 +32,7 @@ function afspilsymptomer() {
 window.addEventListener('load', function () {
     const video = document.getElementById('minVideo');
     setTimeout(() => {
-        video.muted = false;
-        video.play().catch((error) => {
-            console.log("Autoplay med lyd blev blokeret af browseren:", error);
-        });
+        // Vent 2 sekunder før videoen afspilles
+        video.muted = false; // Slå lyden til
     }, 2000); // 2 sekunder
 });

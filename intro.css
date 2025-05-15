@@ -48,7 +48,6 @@ body {
     font-weight: 400;
 }
 
-/* Vendespil layout */
 .vendespilFlade {
     display: grid;
     grid-template-columns: repeat(6, 1fr);

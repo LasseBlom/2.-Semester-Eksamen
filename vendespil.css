@@ -7,7 +7,7 @@ body {
     overflow: hidden;
   }
   
-  /* SPILLER INFO */
+  /* SPILLER INFO I TOPPE AF SKÆRMEN */
   .spiller-info {
     position: absolute;
     display: flex;
@@ -35,7 +35,7 @@ body {
     text-align: right;
   }
   
-  /* VENDEBRIKKER */
+  /* BRIKKERNE */
   .vendespilFlade {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
@@ -52,6 +52,7 @@ body {
     height: auto;
   }
   
+  /* START FORFRA */
 .genstartKnap {
   position:absolute;
   bottom: 20px;
@@ -110,7 +111,7 @@ body {
   }
 }
 
-/* Pop-up overlay */
+/* Pop-up overlay ved top-3 */
 .popupOverlay {
   position: fixed;
   inset: 0;
@@ -154,6 +155,7 @@ body {
   color: #ef8b18;
 }
 
+/* Navne i popuppen */
 .navne {
   background-color: #572a7a;
   border-radius: 30px;
@@ -165,6 +167,7 @@ body {
   margin: 20px auto;
 }
 
+/* Når stikket bliver fundet */
 .stikKort{
   opacity: 0.5;
 }

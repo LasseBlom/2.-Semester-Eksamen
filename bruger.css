@@ -44,12 +44,14 @@ body {
     width: 100%;
 }
 
+/* "Navn" over indput-kasserne*/
 .spillerKasse label {
     font-size: 20px;
     margin-bottom: 5px;
     margin-right: 185px;
 }
 
+/* Navn til brugerne */
 .spillerKasse input {
     padding: 10px 20px;
     border: none;
@@ -69,7 +71,6 @@ body {
     background-color: #EF8B18;
 }
 
-/* Vendespil kortlayout bag overlay */
 .vendespilFlade {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
@@ -106,6 +107,7 @@ body {
     z-index: 200;
 }
 
+/* Knappen der kommer frem når begge navne er skrevet */
 .startSpilKnap {
     position: fixed;
     bottom: 120px;
