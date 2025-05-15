@@ -97,3 +97,10 @@ body {
     margin-top: 100px;
     padding-left: 18px;
   }
+
+  .lydIkon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 40px;
+  }
