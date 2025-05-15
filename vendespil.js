@@ -36,4 +36,3 @@ document.getElementById('lukKnap').addEventListener('click', (e) => {
   popup.style.display = 'none';
 });
 
-

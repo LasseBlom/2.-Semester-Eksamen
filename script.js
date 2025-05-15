@@ -37,4 +37,3 @@ bounceCards.forEach(card => { // Går igennem alle kortene og tilføjer en bounc
         bounce();
     }, delay);
 });
-

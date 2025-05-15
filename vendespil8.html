@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Angst vendespil</title>
+    <link rel="stylesheet" href="css/vendespil.css" />
+    <script src="javascript/vendespil.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- SPILLER INFO VENSTRE -->
+    <div class="spiller-info venstre">
+        <img src="img/orange_mand.png" alt="Spiller 1 ikon" />
+        <div>
+            <p id="spiller1-navn"></p>
+            <p>STIK: 2</p>
+        </div>
+    </div>
+
+    <!-- SPILLER INFO HØJRE -->
+    <div class="spiller-info højre">
+        <img src="img/hvid_mand.png" alt="Spiller 2 ikon" />
+        <div>
+            <p id="spiller2-navn"></p>
+            <p>STIK: 2</p>
+        </div>
+    </div>
+
+    <!-- SPILFLADEN -->
+    <section class="vendespilFlade">
+        <a href="kort1-sv1.html"><img id="kort1" src="img/kort_1.png" alt="kort" class="stikKort"></a>
+        <a href="kort1-sv2.html"><img id="kort2" src="img/kort_1.png" alt="kort" class="stikKort"></a>
+        <a href="kort2-sv1.html"><img id="kort3" src="img/kort_1.png" alt="kort" class="stikKort"></a>
+        <a href="kort2-sv2.html"><img id="kort4" src="img/kort_1.png" alt="kort" class="stikKort"></a>
+        <a href="kort3-sv1.html"><img id="kort5" src="img/kort_1.png" alt="kort" class="stikKort"></a>
+        <a href="kort3-sv2.html"><img id="kort6" src="img/kort_1.png" alt="kort" class="stikKort"></a>
+        <a href="kort4-sv1.html"><img id="kort7" src="img/kort_1.png" alt="kort" class="stikKort"></a>
+        <a href="kort4-sv2.html"><img id="kort8" src="img/kort_1.png" alt="kort" class="stikKort"></a>
+        <a href="#"><img id="kort9" src="img/kort_1.png" alt="kort"></a>
+        <a href="#"><img id="kort10" src="img/kort_1.png" alt="kort"></a>
+        <a href="#"><img id="kort11" src="img/kort_1.png" alt="kort"></a>
+        <a href="#"><img id="kort12" src="img/kort_1.png" alt="kort"></a>
+        <a href="#"><img id="kort13" src="img/kort_1.png" alt="kort"></a>
+        <a href="#"><img id="kort14" src="img/kort_1.png" alt="kort"></a>
+        <a href="#"><img id="kort15" src="img/kort_1.png" alt="kort"></a>
+        <a href="#"><img id="kort16" src="img/kort_1.png" alt="kort"></a>
+        <a href="#"><img id="kort17" src="img/kort_1.png" alt="kort"></a>
+        <a href="#"><img id="kort18" src="img/kort_1.png" alt="kort"></a>
+    </section>
+
+
+    <!-- Start forfra-knap -->
+    <a href="index.html" class="genstartKnap">START FORFRA</a>
+
+    <!-- Podium -->
+    <div class="podium" id="podium">
+        <div class="tredje">3</div>
+        <div class="første">1</div>
+        <div class="anden">2</div>
+    </div>
+
+    <!-- Popup til top-3 -->
+    <div class="popupOverlay" id="popupOverlay">
+        <div class="popupBox">
+            <button id="lukKnap" class="lukKnap">&times;</button>
+            <h3>TOP 3</h3>
+            <p class="navne">1. Jonas Hansen</p>
+            <p class="navne">2. Mille Kristensen</p>
+            <p class="navne">3. Simon Larsen</p>
+        </div>
+    </div>
+
+
+
+
+</body>
+
+</html>
