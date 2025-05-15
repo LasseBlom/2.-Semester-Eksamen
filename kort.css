@@ -104,3 +104,16 @@ body {
     right: 20px;
     width: 40px;
   }
+
+  #knudeIMave{
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 25px;
+  }
+
+  .video {
+    width: 850px;
+    height: 500px;
+    display: block;
+    background-color: transparent; /* sikrer ingen sort baggrund */
+  }

@@ -22,3 +22,13 @@ function afspilsymptomer() {
     kort4.play();
 }
 
+//Video
+window.addEventListener('load', function () {
+    const video = document.getElementById('minVideo');
+    setTimeout(() => {
+        video.muted = false;
+        video.play().catch((error) => {
+            console.log("Autoplay med lyd blev blokeret af browseren:", error);
+        });
+    }, 2000); // 2 sekunder
+});
