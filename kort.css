@@ -50,10 +50,11 @@ body {
     display: flex;
     flex-direction: row-reverse;
     align-items: flex-start;
-    gap: 40px;
+    gap: 0px;
     height: 500px;
     width: 900px;
     border : 2px solid #EF8B18; /* Lys orange kant */
+    justify-content: center;   /* Horisontal centrering */
   }
   
   .brik-indhold img {
@@ -88,7 +89,11 @@ body {
   }
 
   .kortFakta{
-    font-size: 70px;
+    font-size: 50px;
     color: white;
     text-align: center;
+    align-content: center;
+    text-transform: uppercase;
+    margin-top: 100px;
+    padding-left: 18px;
   }
