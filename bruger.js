@@ -1,3 +1,5 @@
+"use strict";
+
 // Afspil oplæsning
 const introLyd = new Audio('sounds/navn.m4a');
 

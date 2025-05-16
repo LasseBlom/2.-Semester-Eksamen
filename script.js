@@ -1,3 +1,5 @@
+"use strict";
+
 // Til index, når der bliver trykket et vilkårligt sted på skærmen
 const startOverlay1 = document.getElementById('startOverlay1');
 if (startOverlay1) {

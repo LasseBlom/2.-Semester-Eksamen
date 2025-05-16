@@ -1,3 +1,5 @@
+"use strict";
+
 // Afspiller kort 1.1
 const kort1 = new Audio('sounds/5til10.m4a');
 function afspil5til10() {

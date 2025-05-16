@@ -171,3 +171,20 @@ body {
 .stikKort{
   opacity: 0.5;
 }
+
+/* Hvis tur det er, når der skiftes spiller */
+.spiller-overlay {
+  position: fixed;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 20;
+}
+
+.spiller-overlay h1 {
+  color: #ef8b18;
+  font-size: 100px;
+  font-weight: 900;
+}
