@@ -7,7 +7,7 @@ window.onload = function () {
     const container = document.querySelector('.billedeContainer');
     if (container) {
       // Tilføj klassen 'fade-over' for at trigge en visuel effekt/animation
-      container.classList.add('fade-over');
+      container.classList.add('fadeOver');
     }
   }, 1000); // 1 sekunder
 };

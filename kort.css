@@ -133,11 +133,11 @@ body {
 }
 
 /* Når der tilføjes .fade-over, vises det andet billede */
-.billedeContainer.fade-over img:first-child {
+.billedeContainer.fadeOver img:first-child {
   opacity: 0; /* Sætter opacitet til 0 for det første billede, så det bliver usynligt */
 }
 
-.billedeContainer.fade-over img:last-child {
+.billedeContainer.fadeOver img:last-child {
   opacity: 1; /* Sætter opacitet til 1 for det sidste billede, så det bliver synligt */
   z-index: 2; /* Sætter z-index for at sikre, at det sidste billede er ovenpå */
 }
