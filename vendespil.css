@@ -8,7 +8,7 @@ body {
   }
   
   /* SPILLER INFO I TOPPE AF SKÆRMEN */
-  .spiller-info {
+  .spillerInfo {
     position: absolute;
     display: flex;
     align-items: center;
@@ -18,7 +18,7 @@ body {
     line-height: 1.2;
   }
   
-  .spiller-info img {
+  .spillerInfo img {
     width: 30px;
     height: 40px;
   }
@@ -71,7 +71,6 @@ body {
   display: flex;
   align-items: flex-end;
   gap: 4px;
-  cursor: pointer;
 }
 
 .podium div {
@@ -173,7 +172,7 @@ body {
 }
 
 /* Hvis tur det er, når der skiftes spiller */
-.spiller-overlay {
+.spillerOverlay {
   position: fixed;
   inset: 0;
   background-color: rgba(0, 0, 0, 0.3);
@@ -183,7 +182,7 @@ body {
   z-index: 20;
 }
 
-.spiller-overlay h1 {
+.spillerOverlay h1 {
   color: #ef8b18;
   font-size: 100px;
   font-weight: 900;

@@ -1,12 +1,13 @@
 body {
   margin: 0;
+  padding: 0;
   font-family: 'Lato', sans-serif;
   background-color: #1e1e1e;
   color: white;
 }
 
 /* SPILLER INFO */
-.spiller-info {
+.spillerInfo {
   position: absolute;
   display: flex;
   align-items: center;
@@ -16,7 +17,7 @@ body {
   line-height: 1.2;
 }
 
-.spiller-info img {
+.spillerInfo img {
   width: 30px;
   height: 40px;
 }
@@ -34,7 +35,7 @@ body {
 }
 
 /* RAMMEN OM BRIKKEN */
-.brik-ramme {
+.brikRamme {
   background-color: #623485;
   padding: 40px;
   border-radius: 16px;
@@ -43,7 +44,7 @@ body {
 }
 
 /* INDHOLD INDE I BRIKKEN */
-.brik-indhold {
+.brikIndhold {
   background-color: #623485;
   padding: 10px;
   border-radius: 12px;
@@ -59,7 +60,7 @@ body {
   /* Horisontal centrering */
 }
 
-.brik-indhold img {
+.brikIndhold img {
   max-width: 800px;
   width: 100%;
   height: 100%;
@@ -85,7 +86,6 @@ body {
   color: #f39107;
   /* orange farve */
   font-size: 28px;
-  cursor: pointer;
   padding: 0;
   line-height: 1;
   z-index: 10;

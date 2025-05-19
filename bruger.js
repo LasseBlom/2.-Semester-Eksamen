@@ -16,7 +16,7 @@ const startKnap = document.getElementById("startSpilKnap");
 // Funktion til at tjekke, om begge navnefelter er udfyldt
 function tjekNavne() {
     const navn1 = spiller1.value.trim(); // Hent og trim (fjerne mellemrum) spiller 1's navn
-    const navn2 = spiller2.value.trim(); // Hent og trim (fjerne mellemrum) spiller 1's navn
+    const navn2 = spiller2.value.trim(); // Hent og trim (fjerne mellemrum) spiller 2's navn
 
     // Tjek om begge navne er udfyldt
     if (navn1 && navn2) {
