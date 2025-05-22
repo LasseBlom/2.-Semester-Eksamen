@@ -38,5 +38,5 @@ window.addEventListener('load', function () {
     setTimeout(() => {
         // Vent 2 sekunder før videoen afspilles
         video.muted = false; // Slå lyden til
-    }, 2000); // 2 sekunder
+    }, 1000); // 1 sekunder
 });
